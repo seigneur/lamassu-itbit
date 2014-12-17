@@ -1,0 +1,32 @@
+{
+  "name": "lamassu-itbit",
+  "version": "1.0.0",
+  "description": "Itbit ticker for lamassu-server",
+  "main": "ticker.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seignuer/lamassu-itbit.git"
+  },
+  "keywords": [
+    "Lamassu",
+    "Itbit",
+    "Bitcoin"
+  ],
+  "author": "Dias Lonappan (https://quantified.sg)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seigneur/lamassu-itbit/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "lodash": "^2.4.1",
+    "wreck": "^3.0.0"
+  }
+}
