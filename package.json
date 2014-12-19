@@ -2,7 +2,7 @@
   "name": "lamassu-itbit",
   "version": "1.0.0",
   "description": "Itbit ticker for lamassu-server",
-  "main": "ticker.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -27,6 +27,7 @@
   "dependencies": {
     "async": "~0.2.10",
     "lodash": "^2.4.1",
-    "wreck": "^3.0.0"
+    "wreck": "^3.0.0",
+    "itbit":"0.0.4"
   }
 }
